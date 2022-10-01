@@ -1,0 +1,114 @@
+JASON RESUME
+
+{
+     "basics": [{
+        "name": "A.R.Gowthama Selvan",
+        "label": "developer",
+        "email": "gmarfrgood@gmail.com",
+        "phone": "6383268946",
+        "website": "http://gowthamaselvan.com",
+        "summary": "A brife summary on who i am",
+        "location": [{
+            "country": "India",
+            "state":   "tamil nadu",
+            "district":"salem",
+            "address": "1-5a,1st ward tharamangalam(po),omalur(tk)",
+        }],
+          "profiles": [{
+            "network":"twitter",
+            "username":"Gowthamaselvan chauhan",
+            "url":"http://twitter.com/chauhan",
+        }]
+
+    }]
+     "projects": [{
+        "name":"electricty generation from e-vehical wheel",
+        "description":"Reduce the air pollution and save the environment",
+    }]
+    "education": {[
+        "institution": " Anna University",
+        "department":  "electronics and communication engineering",
+        "study type":   "bachelor",
+        "academic year": "20-08-2018 to 04-07-2022",
+        "location":      "dharmapuri",
+    ]}
+        "skills": [{ 
+        "name": "web developement",
+    }]
+        "languages": [{
+        "languages": "english",
+        "leval":     "medium leval",
+        "mother tonge": "tamil",
+        "leval":        "native speaker",
+    }]
+    "Games": [{
+        "indoor games": [{
+              "game 1": "chess",
+              "leval":  "hard",
+              "game 2": "carromboard",
+              "leval":  "medium",
+              "game 3": "shettul cork",
+              "leval":  "hard",
+        }]
+        "outdoor games": [{
+            "game 1": "cricket",
+            "leval":  "hard",
+            "game 2": "volley ball",
+            "leval":  "hard",
+        }]
+    }]
+      "hobbies": [{
+        "hobbies 1": "books reading",
+        "faviourite books": "raw,mossad,the idiot..etc",
+        "hobbies 2":  "watching movies",
+        "favourite movies": "lovely bones,ayla tha daughter of war",
+      }]
+
+    }
+2 Using for loop to iterate JSON
+
+            var a = [{
+            "name": "Ajith",
+            "age": "49",
+            "gender": "male",
+            "hobbies": "cricket"
+                  }]
+            for (var i = 0; i <parseInt(a.length); i++) {
+                  console.log(a);
+                 }
+               console.log(a[0].name);
+
+Using for of loop to iterate JSON
+
+               var a = [{
+              "name": "Ajith",
+              "age": "49",
+              "gender": "male",
+              "hobbies": "cricket"
+                   }]
+               for (var i of a ){
+                   console.log(i);
+                       }
+Using for in loop to iterate JSON
+
+                var a = [{
+               "name": "Ajith",
+               "age": "49",
+               "gender": "male",
+               "hobbies": "cricket"
+                     }]
+                for (var i in a ){
+                    console.log(a[i]);
+                        }
+
+Using forEach loop to iterate JSON
+
+               var a = [{
+                "name": "Ajith",
+               "age": "49",
+               "gender": "male",
+               "hobbies": "cricket"
+                     }]
+                a.forEach(item=>{
+                     console.log(item);
+                        });
